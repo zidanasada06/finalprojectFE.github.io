@@ -338,3 +338,68 @@ footer {
     font-size: 12px;
   }
 }
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .home {
+    margin: 15px;
+    flex-direction: column;
+    gap: 50px;
+    text-align: justify;
+  }
+  .home .home-text {
+    order: 2;
+  }
+  .home .home-img {
+    order: 1;
+  }
+    .home .home-img img {
+    width: 335px;
+    height: 245px;
+    align-items: center;
+  }
+  .about {
+    margin: 15px;
+    flex-direction: column;
+    gap: 50px;
+    text-align: justify;
+  }
+  .about .about-text h3 {
+    font-size: 34px;
+  }
+  .about .about-img img {
+    width: 344px;
+    height: 293px;
+    align-items: center;
+  }
+  .service {
+    margin: 15px;
+    flex-direction: column;
+  }
+  .service .service-text h3 {
+    line-height: 50px;
+  }
+  .service .service-text p {
+    margin: 20px 0;
+    padding: 0;
+  }
+  .service .service-box {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer .footer-text {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .footer .copyright {
+    font-size: 12px;
+  }
+}
